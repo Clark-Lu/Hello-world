@@ -6,3 +6,18 @@ git push
 git reset harsh_value
 git status
 git commit --amend
+git clone url
+git remote -v //show remote urls
+git remote add name url //add a new url with a name of name
+git fetch <remote-name> //fetch from a remote url named remote-name
+git remote show <remote-name> //show more information
+git remote rename oldname newname
+git remote remove remote-name
+git tag //list available tags
+git tag -a v1.0 -m 'version 1.0'
+git show tagName
+git tag -a versionNum checksum(or part of it)
+git push origin tagname
+git config --global alias.cmt commit //cmt short alias of commit
+git config --global alias.unstage 'reset HEAD --' //unstage is an alias
+
