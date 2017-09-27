@@ -1,0 +1,8 @@
+git add [-a]
+git commit [-m]
+git log [-p -num]
+git pull
+git push
+git reset harsh_value
+git status
+git commit --amend
