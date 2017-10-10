@@ -1,0 +1,4 @@
+Thymeleaf will handle the template html file first and then angular will do its job.
+需要在application.properties文件中配置静态资源路径，不然会按照按照项目网址去查找
+spring.mvc.static-path-pattern=/static/**
+Thymeleaf 语法严格，所有html标签必须关闭，所有属性必须有值
